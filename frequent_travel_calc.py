@@ -1,3 +1,9 @@
+#! /usr/bin/env python
+# A simply script to take excel files from my employer and calculate the P11D
+# tax liability.
+# Ciarán Mooney
+# 2019
+
 import datetime
 import os
 from xlrd import open_workbook
